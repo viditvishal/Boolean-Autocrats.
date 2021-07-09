@@ -1,0 +1,10 @@
+import random 
+secretNum=random.randint(1,100)
+guessNum=int(input("Guess a number between 1 & 100 inclusive"))
+while guessNum!=secretNum:
+     if guessNum<secretNum:
+        print("your guess is too low")
+     else:
+        print("your guess is too high")
+guessNum=int(input("Guess a nmber between 1 & 100 inclusive:"))
+print("Congratulation! You gussed the number correctly.") 
